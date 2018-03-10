@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "239210332631",
+    "firebase_url": "https://mobilityhack-e20bd.firebaseio.com",
+    "project_id": "mobilityhack-e20bd",
+    "storage_bucket": "mobilityhack-e20bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239210332631:android:8f9c0612978c7864",
+        "android_client_info": {
+          "package_name": "com.risco.android.mobilityhackapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239210332631-br2f8slv44v26jjevkl83fangc7jbcbe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.risco.android.mobilityhackapp",
+            "certificate_hash": "9373b590d62476e8469b2129cf7952a12ebcd500"
+          }
+        },
+        {
+          "client_id": "239210332631-rnkgnq4ggdi1dve0162dmh0qo87u3i4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg27ksWKuXJ1o_y93igWrNJi2ZIsSyjKE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239210332631-rnkgnq4ggdi1dve0162dmh0qo87u3i4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -5,26 +5,6 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/relLayout_top_signin">
-
-
-        <ImageView
-            android:id="@+id/register_logo"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginEnd="225dp"
-            android:paddingBottom="10dp"
-            android:paddingTop="14dp">
-
-        </ImageView>
-
-    </RelativeLayout>
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,7 +14,7 @@
         android:paddingLeft="25dp"
         android:paddingRight="25dp"
         android:id="@+id/login_linearLayot"
-        android:layout_below="@id/relLayout_top_signin">
+        >
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -43,7 +23,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="start saving the "
+                android:text="register and "
                 android:textColor="@color/black"
                 android:layout_gravity="left"
                 android:textSize="28dp"
@@ -52,7 +32,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="world"
+                android:text="enjoy"
                 android:textColor="@color/black"
                 android:layout_gravity="left"
                 android:textStyle="bold"
@@ -141,14 +121,20 @@
                 android:layout_marginLeft="10dp"/>
 
         </LinearLayout>
-    </LinearLayout>
 
-    <ProgressBar
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/register_progressBar"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:layout_below="@id/login_linearLayot"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/register_progressBar"
+            android:backgroundTint="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+
+    </LinearLayout>
 
 </RelativeLayout>
