@@ -113,7 +113,6 @@
             android:textAllCaps="false"
             android:textSize="16dp"
             android:textStyle="normal"
-            android:background="@drawable/white_rounded_bottom"
             style="?android:attr/borderlessButtonStyle"
             android:id="@+id/register_btn"/>
 
