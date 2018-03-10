@@ -23,15 +23,21 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     implementation 'com.google.firebase:firebase-auth:11.0.4'
+<<<<<<< HEAD
 
+=======
+>>>>>>> 544005a5bc46810a133eac5385a052589cf5a6ad
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
     //design library for coordinator layout and toolbars
     compile 'com.android.support:design:26.1.0'
+<<<<<<< HEAD
     //Firebase
     compile 'com.android.volley:volley:1.1.0'
+=======
+>>>>>>> 544005a5bc46810a133eac5385a052589cf5a6ad
 
     //Firebase
     compile 'com.google.firebase:firebase-database:11.0.4'

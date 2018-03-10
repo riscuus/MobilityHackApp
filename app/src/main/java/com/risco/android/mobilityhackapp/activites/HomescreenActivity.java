@@ -1,5 +1,6 @@
 package com.risco.android.mobilityhackapp.activites;
 
+<<<<<<< HEAD
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
@@ -26,6 +27,18 @@ import com.risco.android.mobilityhackapp.utils.CSVFile;
 import com.risco.android.mobilityhackapp.utils.NDEFdecrypt;
 
 import java.util.List;
+=======
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.TextView;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.risco.android.mobilityhackapp.R;
+>>>>>>> 544005a5bc46810a133eac5385a052589cf5a6ad
 
 /**
  * Created by Albert Risco on 10/03/2018.
@@ -37,6 +50,7 @@ public class HomescreenActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
 
+<<<<<<< HEAD
     NfcAdapter nfcAdapter;
     EditText txtTagContent;
     CSVFile csv;
@@ -48,10 +62,16 @@ public class HomescreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homescreen);
+=======
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
+>>>>>>> 544005a5bc46810a133eac5385a052589cf5a6ad
 
         mContext=HomescreenActivity.this;
 
         mAuth = FirebaseAuth.getInstance();
+<<<<<<< HEAD
         nfcAdapter = NfcAdapter.getDefaultAdapter(this);
 
         txtTagContent = (EditText)findViewById(R.id.txtTagContent);
@@ -59,6 +79,8 @@ public class HomescreenActivity extends AppCompatActivity {
         l = csv.read();
         toWrite = new String[2];
         queue = Volley.newRequestQueue(this);
+=======
+>>>>>>> 544005a5bc46810a133eac5385a052589cf5a6ad
 
     }
 
@@ -72,6 +94,7 @@ public class HomescreenActivity extends AppCompatActivity {
 
         }
     }
+<<<<<<< HEAD
 
     @Override
     protected void onResume() {
@@ -127,4 +150,6 @@ public class HomescreenActivity extends AppCompatActivity {
         return l;
     }
 
+=======
+>>>>>>> 544005a5bc46810a133eac5385a052589cf5a6ad
 }

@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MobilityHackApp.iml" filepath="$PROJECT_DIR$/MobilityHackApp.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/MobilityHackApp-master.iml" filepath="$PROJECT_DIR$/MobilityHackApp-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+=======
+>>>>>>> 544005a5bc46810a133eac5385a052589cf5a6ad
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

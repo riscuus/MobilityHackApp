@@ -10,9 +10,12 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.risco.android.mobilityhackapp.R;
+<<<<<<< HEAD
 import com.risco.android.mobilityhackapp.utils.CSVFile;
 
 import java.util.List;
+=======
+>>>>>>> 544005a5bc46810a133eac5385a052589cf5a6ad
 
 /**
  * Created by Albert Risco on 10/03/2018.
@@ -23,7 +26,10 @@ public class LoginActivity extends AppCompatActivity {
     private static final String TAG = "LoginActivity";
     private Context mContext;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 544005a5bc46810a133eac5385a052589cf5a6ad
     //Layout stuff
     private ProgressBar mProgressBar;
     private EditText mEmail, mPassword;
@@ -32,6 +38,10 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 544005a5bc46810a133eac5385a052589cf5a6ad
         initWidgets();
 
         //Intent to register activity
@@ -55,5 +65,8 @@ public class LoginActivity extends AppCompatActivity {
         mProgressBar.setVisibility(View.GONE);
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 544005a5bc46810a133eac5385a052589cf5a6ad
 }
